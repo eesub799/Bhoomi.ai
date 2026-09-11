@@ -1,0 +1,72 @@
+name: bhoomi_ai
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_tts: ^4.0.2
+  # Firebase
+  firebase_core: ^3.3.0
+  firebase_auth: ^5.7.0
+  cloud_firestore: ^5.4.4
+  firebase_storage: ^12.3.0
+
+  # Google Sign-In
+  google_sign_in: ^6.3.0
+
+  # Markdown
+  flutter_markdown: ^0.6.20
+
+  # Speech-to-text
+  record: ^6.2.1
+  audioplayers: ^6.1.0
+  path_provider: ^2.1.3
+
+  speech_to_text: ^7.0.0
+
+  # geolocation
+  geocoding: ^3.0.0
+  # UI / Utils
+  shared_preferences: ^2.2.2
+  cupertino_icons: ^1.0.8
+  video_player: ^2.6.0
+  lottie: ^3.0.0
+  fl_chart: ^0.69.0
+  image_picker: ^1.0.7
+  url_launcher: ^6.2.2
+  share_plus: ^7.2.2
+  geolocator: ^11.0.0
+  google_fonts: ^6.2.1
+
+  http: ^1.2.0
+  intl: ^0.19.0
+
+  # On-device plant disease classification
+  tflite_flutter: ^0.11.0
+  image: ^4.5.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo_video.mp4
+    - assets/animation.json
+    - assets/google.png
+    - assets/profile.png
+    - assets/tomato.jpg
+    - assets/farm_banner.jpg
+    - assets/models/best_model_quantized.tflite
+    - assets/labels.txt
+    - assets/data/diseases_en.json
